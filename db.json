@@ -151,5 +151,17 @@
       "description": "Delinquent teen-agers ingest a substance and grow thirty feet tall, then proceed to take over a small town.",
       "poster": "https://www.gstatic.com/tv/thumb/v22vodart/37991/p37991_v_v8_aa.jpg"
     }
+  ],
+  "tickets": [
+    {
+      "id": "ce29",
+      "film_id": "1",
+      "number_of_tickets": 1
+    },
+    {
+      "id": "90c4",
+      "film_id": "1",
+      "number_of_tickets": 1
+    }
   ]
 }
