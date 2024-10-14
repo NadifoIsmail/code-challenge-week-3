@@ -11,17 +11,18 @@ fetch("http://localhost:3000/films")
         list.classList.add("sold-out")
       }
 
+      films.appendChild(list)
+
        const deleteButton = document.createElement("button")
        deleteButton.classList.add("col" ,"deletebtn")
        deleteButton.textContent = "delete";
 
        list.appendChild(deleteButton)
-       
+
         deleteButton.addEventListener("click" ,(e) => {
           deleteButton.parentElement.remove()
           deleteFilm(movie);
         })
-        films.appendChild(list)
     })
     }
   );
